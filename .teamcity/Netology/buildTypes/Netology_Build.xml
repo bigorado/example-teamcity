@@ -7,7 +7,7 @@
     <build-runners>
       <runner id="RUNNER_1" name="" type="Maven2">
         <conditions>
-          <contains name="teamcity.build.branch" value="master" />
+          <does-not-contain name="teamcity.build.branch" value="master" />
         </conditions>
         <parameters>
           <param name="goals" value="clean deploy" />
