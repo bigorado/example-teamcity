@@ -8,7 +8,7 @@
   <param name="ignoreKnownHosts" value="true" />
   <param name="secure:password" value="credentialsJSON:a2396096-eb77-4b64-841b-138802a19de9" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="teamcity:branchSpec" value="refs/heads/*" />
+  <param name="teamcity:branchSpec" value="feature/add_reply" />
   <param name="url" value="https://github.com/bigorado/example-teamcity.git" />
   <param name="useAlternates" value="AUTO" />
   <param name="username" value="bigorado" />
